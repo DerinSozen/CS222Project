@@ -1,0 +1,111 @@
+/* Style the table */
+.result-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+/* Style table headers */
+.result-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd; /* Add borders to table headers */
+}
+
+/* Style table data cells */
+.result-table td {
+    border: 1px solid #ddd; /* Add borders to table cells */
+    padding: 8px;
+    vertical-align: top; /* Align cell content to the top */
+}
+
+/* Style alternating rows */
+.result-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    width: 300px;
+    font-size: 24px; /* Adjust the font size as needed */
+    font-family: "Arial", sans-serif; /* Specify your desired font family */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Set the text color */
+    text-align: center; /* Center align the text */
+    /* Add any other styles you want */
+    margin: 10px 0; /* Add margin for spacing */
+  }
+  
+.prompt {
+    width: 300px;
+    font-size: 15px; /* Adjust the font size as needed */
+    font-family: "Arial", sans-serif; /* Specify your desired font family */
+    color: #333; /* Set the text color */
+    text-align: center; /* Center align the text */
+    /* Add any other styles you want */
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+/* Styles for the flat button */
+.flat-button {
+    display: inline-block;
+    padding: 5px 15px; /* Adjust the padding to control the button size */
+    background-color: #3498db; /* Button background color */
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 4px; /* Rounded corners for a modern look */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover and click */
+  }
+  
+  /* Hover state styles */
+  .flat-button:hover {
+    background-color: #2574a9; /* Button background color on hover */
+  }
+  
+  /* Active (clicked) state styles */
+  .flat-button:active {
+    background-color: #195e91; /* Button background color when clicked */
+  }
+  
+  .center-container {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 40px; /* 100% viewport height to center vertically within the viewport */
+  }
+
+  .center-text {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    height: 35px; /
+  }
+
+  .p-center {
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  .loader {
+    border: 4px solid #f3f3f3; /* Light gray border */
+    border-top: 4px solid #3498db; /* Blue border for animation */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite; /* Animation */
+    justify-content: center;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .cent {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    padding: 5px;
+  }
